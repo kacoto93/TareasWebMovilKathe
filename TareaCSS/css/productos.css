@@ -1,0 +1,57 @@
+.imgGrid {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 5px;
+}
+
+.grid {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section {
+  margin-top: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .imgGrid {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 3px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .imgGrid {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 4px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .imgGrid {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 5px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .imgGrid {
+    max-width: 280px;
+    max-height: 280px;
+    margin: 5px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .imgGrid {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 5px;
+  }
+}

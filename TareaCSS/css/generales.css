@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 196, 102);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(93, 194, 76);
+  color: aliceblue;
+  justify-content: space-around;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+A:link {
+  text-decoration: none;
+}
+A:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+A:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
