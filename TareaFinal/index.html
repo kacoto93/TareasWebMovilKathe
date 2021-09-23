@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../TareaFinal/css/estilos.css" />
+    <script src="../TareaFinal/js/validaciones.js"></script>
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Solicitud de préstamo</h1>
+    </header>
+    <main>
+      <form class="formulario" id="formulario">
+        <h4>Formulario para solicitud de préstamo de vivienda</h4>
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input
+            class="inputForm"
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Juan"
+          />
+        </p>
+        <p>
+          <label for="apellido">Apellido:</label>
+          <input
+            class="inputForm"
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Pérez"
+          />
+        </p>
+        <p>
+          <label for="cedula">Cedula:</label>
+          <input
+            class="inputForm"
+            type="text"
+            name="cedula"
+            id="cedula"
+            size="9"
+            placeholder="123456789"
+          />
+        </p>
+        <p>
+          <label for="ingresos">Ingresos brutos:</label>
+          <input
+            class="inputForm"
+            type="number"
+            name="ingresos"
+            id="ingresos"
+            placeholder="340 000"
+          />
+        </p>
+        <p>
+          <label for="prestamo">Monto del préstamo:</label>
+          <input
+            class="inputForm"
+            type="number"
+            name="prestamo"
+            id="prestamo"
+            placeholder="55 000 000"
+          />
+        </p>
+        <p>
+          <label for="email">Correo:</label>
+          <input
+            class="inputForm"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="juan.perez@ejemplo.com"
+          />
+        </p>
+        <p>
+          <label for="telefono">Telefono:</label>
+          <input
+            class="inputForm"
+            type="tel"
+            name="telefono"
+            id="telefono"
+            size="9"
+            placeholder="22222222"
+          />
+        </p>
+        <p>
+          <label for="genero">Genero:</label>
+
+          <select name="genero" id="genero" class="inputForm">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+          </select>
+        </p>
+        <p>
+          <label for="tiempoTrabajo">Tiempo en el trabajo actual:</label>
+          <input
+            class="inputForm"
+            type="number"
+            name="tiempoTrabajo"
+            id="tiempoTrabajo"
+          />
+        </p>
+        <p>
+          <button type="submit" class="buttonSend">Enviar</button>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
